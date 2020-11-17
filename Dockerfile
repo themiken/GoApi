@@ -1,6 +1,6 @@
 FROM golang:1.12.13
 
-ENV REPO_URL=dev.azure.com/SiigoDevOps/Strategy/_git/MikenGoLang
+ENV REPO_URL=github.com/themiken/GoApi
 
 ENV GOPATH=/app
 
@@ -15,3 +15,6 @@ RUN go build -o mikenapi .
 EXPOSE 8081
 
 CMD ["./mikenapi"]
+
+
+

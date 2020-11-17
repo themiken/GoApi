@@ -1,4 +1,4 @@
-module dev.azure.com/SiigoDevOps/Strategy/_git/MikenGoLang
+module github.com/themiken/GoApi
 
 go 1.12
 
