@@ -17,7 +17,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 func handleRequests() {
     myRouter := mux.NewRouter().StrictSlash(true)
     myRouter.HandleFunc("/", homePage)
-    log.Fatal(http.ListenAndServe(":8080", myRouter))
+    log.Fatal(http.ListenAndServe(":8081", myRouter))
 }
 
 func main() {
